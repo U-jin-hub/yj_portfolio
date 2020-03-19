@@ -1,0 +1,16 @@
+.header{
+    background-color:yellow;
+    color:blue;
+    height:200px;
+}
+
+.main{
+    background-color:pink;
+    color:blueviolet;
+    height:500px
+}
+
+.footer{
+    background-color:plum;
+    color:cornflowerblue;
+}
