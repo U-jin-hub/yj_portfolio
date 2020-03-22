@@ -4,3 +4,8 @@ from django.shortcuts import render
 
 def home(request):
     return render(request,'portfolio/home.html')
+
+def hw1(request):
+    return render(request,'portfolio/hw1.html')   
+    
+     

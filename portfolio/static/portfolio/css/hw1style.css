@@ -1,0 +1,17 @@
+.header{
+    background-color:gold;
+    color:black;
+    height:100px;
+}
+
+.main{
+    background-color:orange;
+    color:white;
+    height:300px
+}
+
+.footer{
+    background-color:yellow;
+    color:gray;
+    height:30px;
+}
