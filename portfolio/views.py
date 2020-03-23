@@ -7,5 +7,7 @@ def home(request):
 
 def hw1(request):
     return render(request,'portfolio/hw1.html')   
+ 
+def review(request):
+    return render(request,'portfolio/review.html')     
     
-     

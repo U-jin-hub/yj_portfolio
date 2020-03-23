@@ -1,16 +1,46 @@
-.header{
-    background-color:yellow;
-    color:blue;
-    height:200px;
+/*css의 주석입니다. */
+/* !import 이부분을 우선순위로 쓴다 */
+*{
+    background-color: beige;
 }
-
-.main{
+header{
+    box-sizing:border-box;
+    height:50px;
+    /*width:400px;*/
+    background-color:skyblue;
+    color:blue;
+    border-radius: 10px 10px 10px 10px;
+    border-color: hotpink;
+    border-style: dashed;
+    border-width:10px;
+    border-spacing:10px;
+}
+#hh{
+    background-color:red;
+}
+section{
+    display:flex;
+    justify-content:center;
+    margin: 10px auto;
     background-color:pink;
     color:blueviolet;
-    height:500px
+    height:500px;
+    
 }
-
-.footer{
-    background-color:plum;
-    color:cornflowerblue;
+nav{
+    background-color:orange;
+    width:20%;
+}
+article{
+    background-color:purple;
+    width:50%;
+}
+aside{
+    background-color:orangered;
+    width:30%;
+}
+footer{
+    background-color:yellowgreen;
+    color:green;
+    height:100px;
 }

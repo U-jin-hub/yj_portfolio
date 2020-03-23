@@ -7,11 +7,11 @@
 .main{
     background-color:orange;
     color:white;
-    height:300px
+    height:300px;
 }
 
 .footer{
     background-color:yellow;
     color:gray;
-    height:30px;
+    font-size:30px;
 }

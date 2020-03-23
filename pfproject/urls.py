@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-import portfolio.views
+import portfolio.views #portfolio에 있는 views.py파일을 불러온다.
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',portfolio.views.home,name="home"),
     path('hw1/',portfolio.views.hw1,name="hw1"),
+    path('review/',portfolio.views.review,name="review"),
 ]
