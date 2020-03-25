@@ -10,4 +10,7 @@ def hw1(request):
  
 def review(request):
     return render(request,'portfolio/review.html')     
+
+def new(request):
+    return render(request,'portfolio/new.html')  
     

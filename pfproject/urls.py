@@ -22,4 +22,5 @@ urlpatterns = [
     path('',portfolio.views.home,name="home"),
     path('hw1/',portfolio.views.hw1,name="hw1"),
     path('review/',portfolio.views.review,name="review"),
+    path('new/',portfolio.views.new,name="new"),
 ]
