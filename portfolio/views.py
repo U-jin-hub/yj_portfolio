@@ -12,5 +12,8 @@ def review(request):
     return render(request,'portfolio/review.html')     
 
 def new(request):
-    return render(request,'portfolio/new.html')  
+    return render(request,'portfolio/new.html') 
+
+def youtube(request):
+    return render(request,'portfolio/youtube.html') 
     

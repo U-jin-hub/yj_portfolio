@@ -1,0 +1,72 @@
+/*css의 주석입니다. */
+*{
+    background-color:white;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:50px;
+    /*width:400px;*/
+    
+}
+
+.search{
+    height: 40px;
+    width:400px;
+    border: 1px solid gray;
+    background:white;
+}
+input{
+    font-size:16px;
+    width:325px;
+    padding:10px;
+    border:0px;
+    outline:none;
+    float:left;
+}
+button{
+    width:50px;
+    height:100%;
+    border:0px;
+    background:gray;
+    outline:none;
+    float:right;
+    color:black;
+}
+#hh{
+    background-color:black;
+}
+section{
+    display:flex;
+    /*가로정렬:space-around다띄엄띄엄,space-between사이띄엄띄엄,flex-start는 왼쪽정렬, center 가운데정렬, flex-end 오른쪽정렬 */
+    justify-content:space-between;
+    /*세로정렬:center가운데, flex-start, flex-end*/
+    align-items:flex-start;
+    
+    margin: 10px auto;
+    background-color:pink;
+    color:blueviolet;
+    height:500px;
+    
+}
+nav{
+    background-color:orange;
+    width:100px;
+    height:100px;
+}
+article{
+    background-color:purple;
+    width:400px;
+    height:100px;
+}
+aside{
+    background-color:orangered;
+    width:200px;
+    height:100px;
+}
+footer{
+    background-color:yellowgreen;
+    color:green;
+    height:100px;
+}
