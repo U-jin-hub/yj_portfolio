@@ -2,6 +2,10 @@
 *{
     background-color:white;
 }
+body{
+    margin:0; /* 전체화면 꽉차게 */
+}
+
 header{
     display:flex;
     justify-content:space-between;
@@ -28,43 +32,50 @@ input{
 button{
     width:50px;
     height:100%;
+    margin: 5 auto;
+    padding: 5 auto;
     border:0px;
     background:gray;
     outline:none;
     float:right;
     color:black;
 }
-#hh{
-    background-color:black;
-}
+
 section{
     display:flex;
-    /*가로정렬:space-around다띄엄띄엄,space-between사이띄엄띄엄,flex-start는 왼쪽정렬, center 가운데정렬, flex-end 오른쪽정렬 */
-    justify-content:space-between;
-    /*세로정렬:center가운데, flex-start, flex-end*/
-    align-items:flex-start;
+    margin: 0 10px 0 0;
     
-    margin: 10px auto;
-    background-color:pink;
-    color:blueviolet;
-    height:500px;
+    background-color:white;
+    color:gray;
     
 }
 nav{
-    background-color:orange;
-    width:100px;
-    height:100px;
+    width: 250px;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+}
+ul{
+    margin:0 0 0 10px;
+    padding:0 0 0 10px;
+    list-style:none;
+}
+.ad{
+    width: 100%;
+    background-color:gray;
+    margin:10px 20px 0 20px;
+    padding:10px 20px 0 20px;
+    display:flex;
+    align-items:flex-start;
+}
+iframe{
+    margin: 0 10px 0 0;
 }
 article{
     background-color:purple;
     width:400px;
     height:100px;
 }
-aside{
-    background-color:orangered;
-    width:200px;
-    height:100px;
-}
+
 footer{
     background-color:yellowgreen;
     color:green;
