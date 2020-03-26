@@ -1,7 +1,4 @@
 /*css의 주석입니다. */
-*{
-    background-color:white;
-}
 body{
     margin:0; /* 전체화면 꽉차게 */
 }
@@ -50,31 +47,40 @@ section{
     
 }
 nav{
-    width: 250px;
-    margin: 10px 0 10px 0;
-    padding: 10px 0 10px 0;
+    width: 200px;
 }
 ul{
-    margin:0 0 0 10px;
-    padding:0 0 0 10px;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
     list-style:none;
+}
+li{
+    margin:10px 0 10px 0;
+
+}
+.inner{
+    width:100%;
+    background-color:gainsboro;
+    color:black;
+    padding:0 10px 0 10px;
+
 }
 .ad{
     width: 100%;
-    background-color:gray;
-    margin:10px 20px 0 20px;
-    padding:10px 20px 0 20px;
+    background-color:gainsboro;
+    margin:5px 0 0 10px;
     display:flex;
-    align-items:flex-start;
+}
+.videos{
+    width: 100%;
+    background-color:gainsboro;
+    margin:0 0 0 10px;
+    display:flex;
 }
 iframe{
-    margin: 0 10px 0 0;
+    margin: 0 20px 5px 0;
 }
-article{
-    background-color:purple;
-    width:400px;
-    height:100px;
-}
+
 
 footer{
     background-color:yellowgreen;

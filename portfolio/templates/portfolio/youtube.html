@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>유진's portfolio</title>
+        <title>YouTube레이아웃</title>
         <meta charset='utf-8'>
         <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/youtubestyle.css' %}">
     
@@ -50,14 +50,22 @@
                 </ul>
             </nav>
 
-            <div class="ad">
-                <iframe width="700" height="315" padding="0 20 0 20;" src="https://www.youtube.com/embed/GE1xx7TqCkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <img style="height:315; width:400; padding: 0 20 0 20;" src="{% static 'youtubeadd.jpg' %}">
-
+            <div class="inner">
+                <div class="ad">
+                    <iframe width="700" height="315" src="https://www.youtube.com/embed/GE1xx7TqCkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <img style="width:770px; height:315px;" src="{% static 'youtubeadd.jpg' %}">
+                </div>
+                <h2>&nbsp맞춤 동영상</h2>
+                <div class="videos">
+                    <iframe width="360" height="300" src="https://www.youtube.com/embed/NOJ0ZGJlXy8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="360" height="300" src="https://www.youtube.com/embed/t4Es8mwdYlE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="360" height="300" src="https://www.youtube.com/embed/o3bQPvDfQGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="360" height="300" src="https://www.youtube.com/embed/r5vBbfy4960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
-           
+    
         </section>
-        
+
     </body>
 
 </html>
