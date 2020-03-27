@@ -1,9 +1,12 @@
 /*css의 주석입니다. */
+/*body는 header,section,footer로 이루어져있습니다. */
 body{
     margin:0; /* 전체화면 꽉차게 */
 }
 
+/*header부분 */
 header{
+    margin: 5px 10px 5px 10px;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -11,17 +14,17 @@ header{
     /*width:400px;*/
     
 }
-
+/*검색창 */
 .search{
-    height: 40px;
-    width:400px;
+    height: 30px;
+    width:700px;
     border: 1px solid gray;
     background:white;
 }
 input{
     font-size:16px;
     width:325px;
-    padding:10px;
+    padding:5px;
     border:0px;
     outline:none;
     float:left;
@@ -32,45 +35,47 @@ button{
     margin: 5 auto;
     padding: 5 auto;
     border:0px;
-    background:gray;
+    background:gainsboro;
     outline:none;
     float:right;
     color:black;
 }
 
+/*section부분 */
 section{
     display:flex;
-    margin: 0 10px 0 0;
+    margin: 5px 10px 0 0;
     
     background-color:white;
     color:gray;
     
 }
-nav{
-    width: 200px;
-}
+/*유튜브 왼쪽 목록 */
 ul{
-    margin: 0 0 0 10px;
-    padding: 0 0 0 10px;
+    width: 240px;
+    margin: 0 5px 0 10px;
+    padding: 0 5px 0 10px;
     list-style:none;
 }
 li{
     margin:10px 0 10px 0;
-
+    color:gray;
 }
+/*유튜브 영상부분 */
 .inner{
     width:100%;
     background-color:gainsboro;
     color:black;
-    padding:0 10px 0 10px;
-
+    padding:7px 10px 0 10px;
 }
+/*위 광고부분 */
 .ad{
     width: 100%;
     background-color:gainsboro;
-    margin:5px 0 0 10px;
+    margin:1px 0 0 10px;
     display:flex;
 }
+/*아래 동영상부분 */
 .videos{
     width: 100%;
     background-color:gainsboro;
@@ -78,12 +83,38 @@ li{
     display:flex;
 }
 iframe{
-    margin: 0 20px 5px 0;
+    margin: 0 15px 5px 0;
+}
+/*각 동영상 별 설명(제목,채널명,조회수 등) */
+.content{
+    display:flex;
+}
+.content1{
+    width:335px;
+    margin: 0 15px 5px 0;
+}
+.content2{
+    width:335px;
+    margin: 0 15px 5px 0;
+}
+.content3{
+    width:335px;
+    margin: 0 15px 5px 0;
+}
+.content4{
+    width:335px;
+    margin: 0 15px 5px 0;
+}
+h5{
+    margin:0 0 0 10px;
 }
 
-
+/*footer부분 css입니다. */
 footer{
-    background-color:yellowgreen;
-    color:green;
-    height:100px;
+    background-color:white;
+    color:gray;
+    margin: 0 0 0 20px;
+}
+h6{
+    margin:0;
 }
