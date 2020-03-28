@@ -1,7 +1,7 @@
 /*css의 주석입니다. */
 /* !import 이부분을 우선순위로 쓴다 */
 *{
-    background-color: beige;
+    background-color: yellowgreen;
 }
 header{
     box-sizing:border-box;
@@ -51,4 +51,29 @@ footer{
     background-color:yellowgreen;
     color:green;
     height:100px;
+}
+
+/*링크 */
+a:link{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    /*background-color도 가능*/
+    color:red;
+}
+ul{
+    padding:0;
+}
+li{
+    list-style:none;
+    padding-left:0;
+}
+li:hover{
+    background-color:yellow;
 }
